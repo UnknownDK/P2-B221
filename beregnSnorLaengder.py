@@ -26,5 +26,5 @@ bqLen = np.sqrt(bq[0]**2 + bq[1]**2 + bq[2]**2)
 cqLen = np.sqrt(cq[0]**2 + cq[1]**2 + cq[2]**2)
 dqLen = np.sqrt(dq[0]**2 + dq[1]**2 + dq[2]**2)
 
-#Længderne af snorvektorerne printes
-print("aq: {}, bq: {}, cq: {}, dq: {}".format(aqLen, bqLen, cqLen, dqLen))
+#Længderne af snorvektorerne afrundes og printes
+print("aq: {}, bq: {}, cq: {}, dq: {}".format(round(aqLen, 2), round(bqLen, 2), round(cqLen, 2), round(dqLen, 2)))
